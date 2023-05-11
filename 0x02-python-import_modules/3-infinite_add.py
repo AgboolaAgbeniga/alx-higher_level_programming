@@ -6,6 +6,6 @@ if __name__ == "__main__":
 
     result = 0
     for arg in args:
-      result += int(arg)
+        result += int(arg)
 
     print(result)
