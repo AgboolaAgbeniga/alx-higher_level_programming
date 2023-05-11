@@ -5,7 +5,7 @@ if __name__ == "__main__":
 
   a = 10
   b = 5
-  print('The sum of {} and {} is {}'.format(a, b, add(a, b)))
-  print('The difference between {} and {} is {}'.format(a, b, sub(a, b)))
-  print('The product of {} and {} is {}'.format(a, b, mul(a, b)))
-  print('The division of {} by {} is {}'.format(a, b, div(a, b)))
+  print("{} + {} = {}".format(a, b, add(a, b)))
+  print("{} - {} = {}".format(a, b, sub(a, b)))
+  print("{} * {} = {}".format(a, b, mul(a, b)))
+  print("{} / {} = {}".format(a, b, div(a, b)))
