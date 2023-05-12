@@ -1,8 +1,2 @@
 #!/bin/bash
-# Compile PYFILE
-python -m py_compile "$PYFILE"
-
-# Set output filename to $PYFILEc
-output_filename="${PYFILE}c"
-
-echo "Compiled $PYFILE to $output_filename"
+python3 -c "import py_compile; py_compile.compile('$PYFILE', '$PYFILE' + 'c')"
