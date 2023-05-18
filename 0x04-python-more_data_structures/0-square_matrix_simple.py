@@ -7,7 +7,7 @@ def square_matrix_simple(matrix=[]):
     # Iterate over the rows and columns of the input matrix
     for i in range(len(matrix)):
         for j in range(len(matrix[i])):
-            """Compute the square value of each 
+            """Compute the square value of each
             element and store it in the result matrix"""
             result[i][j] = matrix[i][j] ** 2
 
