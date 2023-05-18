@@ -6,10 +6,11 @@ def search_replace(my_list, search, replace):
     
     # Iterate over the elements in the input list
     for item in my_list:
-        # If the current element matches the search element, replace it with the new element
+        """If the current element matches
+        the search element, replace it with the new element"""
         if item == search:
             result.append(replace)
         else:
             result.append(item)
-    
+
     return result
