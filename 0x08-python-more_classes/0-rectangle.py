@@ -8,3 +8,4 @@ A Rectangle class is created to represent rectangles.
 
 class Rectangle:
     pass
+    
